@@ -29,45 +29,45 @@ import {
 // This is sample data.
 const data = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
+    name: "admin",
+    email: "admin@example.com",
     avatar: "/avatars/shadcn.jpg",
   },
   teams: [
     {
-      name: "Acme Inc",
+      name: "1902 Inc",
       logo: GalleryVerticalEnd,
       plan: "Enterprise",
     },
     {
-      name: "Acme Corp.",
+      name: "1902 Corp.",
       logo: AudioWaveform,
       plan: "Startup",
     },
     {
-      name: "Evil Corp.",
+      name: "1902 Corp.",
       logo: Command,
       plan: "Free",
     },
   ],
   navMain: [
     {
-      title: "Playground",
+      title: "Dashboard",
       url: "#",
       icon: SquareTerminal,
       isActive: true,
       items: [
         {
-          title: "History",
-          url: "#",
+          title: "Expenses",
+          url: "/dashboard",
         },
         {
-          title: "Starred",
-          url: "#",
+          title: "Categories",
+          url: "/dashboard",
         },
         {
-          title: "Settings",
-          url: "#",
+          title: "Payment Method",
+          url: "/dashboard",
         },
       ],
     },
@@ -77,15 +77,15 @@ const data = {
       icon: Bot,
       items: [
         {
-          title: "Genesis",
+          title: "Expenses",
           url: "#",
         },
         {
-          title: "Explorer",
+          title: "Categories",
           url: "#",
         },
         {
-          title: "Quantum",
+          title: "Payment Method",
           url: "#",
         },
       ],
@@ -96,15 +96,15 @@ const data = {
       icon: BookOpen,
       items: [
         {
-          title: "Introduction",
+          title: "Expenses",
           url: "#",
         },
         {
-          title: "Get Started",
+          title: "Categories",
           url: "#",
         },
         {
-          title: "Tutorials",
+          title: "Payment Method",
           url: "#",
         },
         {
@@ -123,15 +123,15 @@ const data = {
           url: "#",
         },
         {
-          title: "Team",
+          title: "Expenses",
           url: "#",
         },
         {
-          title: "Billing",
+          title: "Categories",
           url: "#",
         },
         {
-          title: "Limits",
+          title: "Payment Methods",
           url: "#",
         },
       ],
@@ -139,17 +139,17 @@ const data = {
   ],
   projects: [
     {
-      name: "Design Engineering",
+      name: "Expense Tracker",
       url: "#",
       icon: Frame,
     },
     {
-      name: "Sales & Marketing",
+      name: "Consumption Tracker",
       url: "#",
       icon: PieChart,
     },
     {
-      name: "Travel",
+      name: "Goal Tracker",
       url: "#",
       icon: Map,
     },
